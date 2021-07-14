@@ -1,15 +1,18 @@
 /*--------------fonts----------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /*-------------- common styles or utilities---------- */
+
 body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
-   
+    margin-bottom: 27px;
 }
 
 /*----------------- Style banner------------------ */
+
 .banner{
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
@@ -56,4 +59,26 @@ body{
 .banner-image img{
     width: 556px;
     height: 438px;
+}
+
+/* ----------Players info gallery style---------  */
+.players-gallery{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-row-gap:30px;
+    grid-column-gap: 27px ;
+    margin-left: 180px;
+    margin-right: 220px;
+}
+.player-info{
+    box-shadow: 0px 0px 20px;
+    background: #FFFFFF;
+    width: 300px;
+    height: 447px;
+    padding: 15px;
+    
+}
+.player-info img{
+    width: 300px;
+    height: 250px;
 }
