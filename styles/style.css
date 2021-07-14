@@ -1,4 +1,59 @@
-p{
-    color: green;
-    font-size: 50px;
+/*--------------fonts----------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*-------------- common styles or utilities---------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+   
+}
+
+/*----------------- Style banner------------------ */
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-row-gap: 102px;
+    background-color:#2D25A0;
+    ;
+}
+.banner-title{
+    margin-top:207px ;
+    margin-right: 120px;
+    margin-bottom: 240px;
+    margin-left: 156px ;
+}
+.banner-title h1{
+    width: 700;
+    font-size: 64px;
+    color: white;
+}
+.button{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    width: 168px;
+    height: 44px;
+    margin-top: 27px;
+    padding: 10px 24px;
+    background-color:#E02C6D ;
+  
+}
+.button:hover{
+    background-color: #700462;
+}
+.banner-image{
+    margin-top: 153px;
+    margin-right: 140px;
+    margin-bottom: 86px;
+
+}
+.banner-image img:hover{
+    width: 600px;
+    height: 500px;
+    transition: width 5s , height 5s , transform 10s;
+}
+.banner-image img{
+    width: 556px;
+    height: 438px;
 }
